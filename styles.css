@@ -1,0 +1,32 @@
+/* styles.css */
+body.dark-background {
+  background-color: #1f2631;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #333c42; /* Dark background for card */
+}
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+.task-input,
+.filter-input {
+  color: white;
+}
+
+.collection-item {
+  color: rgb(0, 0, 0);
+}
+
+.clear-btn {
+  background-color: #27ae60; /* Modern green color */
+}
+
+.btn {
+  border-radius: 20px; /* Rounded button corners */
+  text-transform: uppercase; /* Uppercase button text */
+  font-weight: bold; /* Bold button text */
+}
